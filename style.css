@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.custom-shape-divider-top-1613732935 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1613732935 svg {
+    position: relative;
+    display: block;
+    width: calc(148% + 1.3px);
+    height: 84px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1613732935 .shape-fill {
+    fill: #FFFFFF;
+}
+a{
+    color: blue;
+    text-decoration: none;
+}
+.inp{
+    border: 1px solid rgb(199, 198, 198);
+    border-radius: 5px;
+    padding: 10px 5px;
+    font-size: 15px;
+    margin-bottom: 5px;
+    outline: none;
+}
+.btn{
+    border: 1px solid rgb(199, 198, 198);
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.container{
+    margin-top: -30px;
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://i.pinimg.com/originals/96/dc/31/96dc3113f9af42ce648ea7d94df64107.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 30px 40px;
+
+}
+.logo{
+    width: 100%;
+    text-align: center;
+}
+.login img{
+    width: 8em;
+}
+.help{
+    margin-top: 20px;
+}
+.custom-shape-divider-bottom-1613734961 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1613734961 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 56px;
+}
+
+.custom-shape-divider-bottom-1613734961 .shape-fill {
+    fill: #FFFFFF;
+}
+.footer{
+    width: 100%;
+
+}
+.about{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.about .content{
+    text-align: center;
+    width: 50%;
+}
+
+.about-title{
+    margin-bottom: 10px;
+}
+@media (max-width:850px){
+    .custom-shape-divider-bottom-1613734961{
+    bottom:-70px;
+    }
+    }
